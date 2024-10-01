@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    text-align: center;
+    height: 100vh;          /* Ocupa toda la altura de la ventana */
+    margin: 0;
+    background-color: white; /* Fondo de la página */
+    margin-left: 350px 0; 
+}
+
+.container {
+    background-color: white; /* Fondo negro */
+    width: 22cm;             /* Ancho del contenedor */
+    height: 23cm;            /* Alto del contenedor */
+    display: flex;
+    flex-direction: column;  /* Coloca elementos en columna */
+    text-align: center;
+    justify-content: center;  /* Centra verticalmente */
+    align-items: center; 
+    padding: 20px;           /* Espaciado interno */
+    color: black;            /* Color del texto */
+    border: 2px solid black;  /* Borde blanco opcional */
+    margin-left: 350px 0; 
+}
+
+.hot-wheels-img {
+    width: 500px;             /* Ajusta el ancho automáticamente */
+    height: 285px;            /* Ajusta la altura automáticamente */
+    max-width: 100%;        /* Limita el ancho máximo al 100% */
+    max-height: 50%;        /* Limita la altura máxima para mantener proporciones */
+    margin-bottom: 20px;    /* Espacio debajo de la imagen */
+    margin-left: 350px 0; 
+
+}
+
+.quote {
+        font-size: 21px;        /* Tamaño de letra */
+        font-weight: bold;      /* Negrita */
+        font-style: italic;     /* Cursiva */
+        text-transform: uppercase; /* Mayúsculas */
+        text-align: center;     /* Centra el texto */
+        margin: 10px 0;        /* Margen arriba y abajo */
+    
+}
+
+.local-img {
+
+        width: 300px;           /* Ancho de la imagen local */
+        height: 550px;          /* Alto de la imagen local */
+        margin: 20px 0;        /* Margen arriba y abajo */
+        display: block;          /* Asegura que se trate como un bloque */
+        margin-left: auto;      /* Centra horizontalmente */
+        margin-right: auto;     /* Centra horizontalmente */
+
+
+}
+
+.dedicatoria {
+    text-align: center;     /* Centra el texto */
+    margin-top: 13px;      /* Espacio arriba de la dedicatoria */
+    font-weight: bold;      /* Negrita */
+    font-size: 20px;
+}
